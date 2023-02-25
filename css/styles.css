@@ -1,0 +1,258 @@
+:root {
+    --main-title-color: #2E2F42;
+    --main-subtitle-color: #434455;
+    --contacts-color: #434455;
+    --logo-font-acsent: 'Raleway', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #2E2F42;
+    font-size: 16px;
+}
+
+
+.subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contacts-color);
+
+}
+
+.header-logo {
+    font-family: var(--logo-font-acsent);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-acsent {
+
+    color: #4D5AE5;
+}
+
+.logo {
+
+    color: #2E2F42;
+}
+
+.logo-footer{
+    color: #F4F4FD;
+}
+
+/* ---------------header-------------- */
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: #404BBF;
+}
+
+.header{
+    border-bottom: 1px solid #E7E9FC;
+}
+
+/* --------------hero-section---------- */
+.hero-section {
+    background-color: #2E2F42
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.button-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    border-color: #4D5AE5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+    border-color: #404BBF
+}
+
+/* -------------Section about----------- */
+
+.visually-hidden {
+    position: absolute;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    width: 1px;
+}
+
+
+.about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+
+.about-subtitle {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-subtitle-color);
+}
+
+/* ------------Work section------------- */
+
+.worck-title {
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color);
+}
+
+/* -----------Team section-------------- */
+
+.team-section{
+    background: #F4F4FD;
+}
+
+.team-maintitle {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+
+.team-subtitle {
+    font-weight: 400;
+    color: var(--main-subtitle-color);
+}
+
+/* -----------Footer section------------ */
+
+.footer-subtitle {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+.footer-section{
+    background: #2E2F42;
+}
+/* -----------------------------------------------------portfolio---------------------------------------------------- */
+
+
+/* -----------butons------------- */
+
+.buttons {
+    background-color: #F4F4FD;
+    border-color: #E7E9FC;
+}
+
+.buttons:focus,
+.buttons:hover {
+    background-color: #404BBF;
+    border-color: #404BBF;
+}
+
+.buttons-text {font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+.buttons-text:focus,
+.buttons-text:hover {
+    color: #FFFFFF;
+}
+
+
+
+/* -----------------presentation------- */
+
+.presentation-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+
+
+
+.presentation-description {
+    font-weight: 400;
+    color: var(--main-subtitle-color);
+}
+
+.presentation-link{
+    text-decoration: none;    
+}
