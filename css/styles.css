@@ -15,6 +15,28 @@ body {
 }
 
 
+h1 h2 h3 h4 h5 h6 p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    outline: 1px solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 .subtitle {
     font-size: 16px;
     line-height: 1.5;
@@ -53,7 +75,7 @@ body {
     color: #2E2F42;
 }
 
-.logo-footer{
+.logo-footer {
     color: #F4F4FD;
 }
 
@@ -79,8 +101,9 @@ body {
     color: #404BBF;
 }
 
-.header{
+.header {
     border-bottom: 1px solid #E7E9FC;
+    padding: 24px 0;
 }
 
 /* --------------hero-section---------- */
@@ -89,11 +112,14 @@ body {
 }
 
 .hero-title {
+    width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin bottom: 48px;
+
 }
 
 .button-text {
@@ -143,6 +169,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
+    margin-bottom: 8px;
 }
 
 .about-subtitle {
@@ -164,7 +191,7 @@ body {
 
 /* -----------Team section-------------- */
 
-.team-section{
+.team-section {
     background: #F4F4FD;
 }
 
@@ -198,9 +225,10 @@ body {
     color: #E7E9FC;
 }
 
-.footer-section{
+.footer-section {
     background: #2E2F42;
 }
+
 /* -----------------------------------------------------portfolio---------------------------------------------------- */
 
 
@@ -217,7 +245,8 @@ body {
     border-color: #404BBF;
 }
 
-.buttons-text {font-family: 'Roboto', sans-serif;
+.buttons-text {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -229,6 +258,7 @@ body {
     color: #4D5AE5;
     text-decoration: none;
 }
+
 .buttons-text:focus,
 .buttons-text:hover {
     color: #FFFFFF;
@@ -253,6 +283,6 @@ body {
     color: var(--main-subtitle-color);
 }
 
-.presentation-link{
-    text-decoration: none;    
+.presentation-link {
+    text-decoration: none;
 }

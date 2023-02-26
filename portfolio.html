@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
@@ -15,26 +18,27 @@
 
 <body>
     <header class="header">
+        <div class="container">
+            <nav class="header-navigation">
+                <a href="./index.html" class="header-logo"><span class="logo-acsent">Web</span><span
+                        class="logo">Studio</span></a>
 
-        <nav class="header-navigation">
-            <a href="./index.html" class="header-logo"><span class="logo-acsent">Web</span><span
-                    class="logo">Studio</span></a>
 
+                <ul class="header-list list">
+                    <li class="header-item"><a href="" class="header-link list">Studio</a></li>
+                    <li class="header-item"><a href="./index.html" class="header-link list">Portfolio</a></li>
+                    <li class="header-item"><a href="" class="header-link list">Contacts</a></li>
+                </ul>
+            </nav>
 
-            <ul class="header-list list">
-                <li class="header-item"><a href="" class="header-link list">Studio</a></li>
-                <li class="header-item"><a href="./index.html" class="header-link list">Portfolio</a></li>
-                <li class="header-item"><a href="" class="header-link list">Contacts</a></li>
-            </ul>
-        </nav>
-
-        <address class="header-adress">
-            <ul class="header-adress list">
-                <li><a href="mailto:info@devstudio.com" class="header-mail list contacts">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111" class="header-tel list contacts">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
-
+            <address class="header-adress">
+                <ul class="header-adress list">
+                    <li><a href="mailto:info@devstudio.com" class="header-mail list contacts">info@devstudio.com</a>
+                    </li>
+                    <li><a href="tel:+110001111111" class="header-tel list contacts">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+        </div>
     </header>
     <main class="main-section">
         <!-- button -->
@@ -43,7 +47,7 @@
             <ul class="main-buttons list ">
                 <li><button type="button" class="buttons buttons-text">All</button>
                 </li>
-                <li><button type="button"  class="buttons buttons-text">WebSit</button>
+                <li><button type="button" class="buttons buttons-text">WebSit</button>
                 </li>
                 <li><button type="button" class="buttons buttons-text">App</button>
                 </li>
@@ -52,56 +56,66 @@
                 <li><button type="button" class="buttons buttons-text">Marketin</button>
                 </li>
             </ul>
-            
-            
+
+
             <!-- /button >
             <!-- presentation -->
 
             <ul class="presentation-list list">
-                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/banking-app.jpg" alt="Banking App Interface Concept"
-                        width="360" height="300">
-                    <h3 class="presentation-subtitle">Banking App Interface Concept</h3>
-                    <p class="presentation-description subtitle">App</p></a>
+                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/banking-app.jpg"
+                            alt="Banking App Interface Concept" width="360" height="300">
+                        <h3 class="presentation-subtitle">Banking App Interface Concept</h3>
+                        <p class="presentation-description subtitle">App</p>
+                    </a>
                 </li>
-                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/cashless-payment.jpg" alt="Cashless Payment"
-                        width="360" height="300">
-                    <h3 class="presentation-subtitle">Cashless Payment</h3>
-                    <p class="presentation-description subtitle">Marketing</p></a>
+                <li class="presentation-list"><a href="" class="presentation-link"><img
+                            src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
+                        <h3 class="presentation-subtitle">Cashless Payment</h3>
+                        <p class="presentation-description subtitle">Marketing</p>
+                    </a>
                 </li>
-                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/meditaio-app.jpg" alt="Meditaion App" width="360"
-                        height="300">
-                    <h3 class="presentation-subtitle">Meditaion App</h3>
-                    <p class="presentation-description subtitle">App</p></a>
+                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/meditaio-app.jpg"
+                            alt="Meditaion App" width="360" height="300">
+                        <h3 class="presentation-subtitle">Meditaion App</h3>
+                        <p class="presentation-description subtitle">App</p>
+                    </a>
                 </li>
-                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/taxi-service.jpg" alt="Taxi Service" width="360"
-                        height="300">
-                    <h3 class="presentation-subtitle">Taxi Service</h3>
-                    <p class="presentation-description subtitle">Marketing</p></a>
+                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/taxi-service.jpg"
+                            alt="Taxi Service" width="360" height="300">
+                        <h3 class="presentation-subtitle">Taxi Service</h3>
+                        <p class="presentation-description subtitle">Marketing</p>
+                    </a>
                 </li>
-                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/screen-illustrations.jpg" alt="creen Illustrations"
-                        width="360" height="300">
-                    <h3 class="presentation-subtitle">Screen Illustrations</h3>
-                    <p class="presentation-description subtitle">Design</p></a>
+                <li class="presentation-list"><a href="" class="presentation-link"><img
+                            src="./images/screen-illustrations.jpg" alt="creen Illustrations" width="360" height="300">
+                        <h3 class="presentation-subtitle">Screen Illustrations</h3>
+                        <p class="presentation-description subtitle">Design</p>
+                    </a>
                 </li>
-                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/online-courses.jpg" alt="Online Courses" width="360"
-                        height="300">
-                    <h3 class="presentation-subtitle">Online Courses</h3>
-                    <p class="presentation-description subtitle">Marketing</p></a>
+                <li class="presentation-list"><a href="" class="presentation-link"><img
+                            src="./images/online-courses.jpg" alt="Online Courses" width="360" height="300">
+                        <h3 class="presentation-subtitle">Online Courses</h3>
+                        <p class="presentation-description subtitle">Marketing</p>
+                    </a>
                 </li>
-                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/instagram-stories.jpg" alt="Instagram Stories Concept"
-                        width="360" height="300">
-                    <h3 class="presentation-subtitle">Instagram Stories Concept</h3>
-                    <p class="presentation-description subtitle">Design</p></a>
+                <li class="presentation-list"><a href="" class="presentation-link"><img
+                            src="./images/instagram-stories.jpg" alt="Instagram Stories Concept" width="360"
+                            height="300">
+                        <h3 class="presentation-subtitle">Instagram Stories Concept</h3>
+                        <p class="presentation-description subtitle">Design</p>
+                    </a>
                 </li>
-                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/organic-food.jpg" alt="rganic Food" width="360"
-                        height="300">
-                    <h3 class="presentation-subtitle">Organic Food</h3>
-                    <p class="presentation-description subtitle">Web Site</p></a>
+                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/organic-food.jpg"
+                            alt="rganic Food" width="360" height="300">
+                        <h3 class="presentation-subtitle">Organic Food</h3>
+                        <p class="presentation-description subtitle">Web Site</p>
+                    </a>
                 </li>
-                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/fresh-coffee.jpg" alt="Fresh Coffee" width="360"
-                        height="300">
-                    <h3 class="presentation-subtitle">Fresh Coffee</h3>
-                    <p class="presentation-description subtitle">Web Site</p></a>
+                <li class="presentation-list"><a href="" class="presentation-link"><img src="./images/fresh-coffee.jpg"
+                            alt="Fresh Coffee" width="360" height="300">
+                        <h3 class="presentation-subtitle">Fresh Coffee</h3>
+                        <p class="presentation-description subtitle">Web Site</p>
+                    </a>
                 </li>
             </ul>
         </section>
