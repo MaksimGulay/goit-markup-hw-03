@@ -162,6 +162,10 @@ img {
     width: 1px;
 }
 
+.section-about {
+    padding: 120px 0px;
+}
+
 
 .about-title {
     font-weight: 500;
@@ -169,7 +173,9 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
+    margin-top: 0px;
     margin-bottom: 8px;
+
 }
 
 .about-subtitle {
@@ -177,9 +183,15 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-subtitle-color);
+    margin: 0px;
 }
 
 /* ------------Work section------------- */
+
+.worck-section {
+    padding-bottom: 120px;
+}
+
 
 .worck-title {
     font-size: 36px;
@@ -187,6 +199,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-title-color);
+    margin: 0px 0px 72px 0px;
 }
 
 /* -----------Team section-------------- */
@@ -201,6 +214,8 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-title-color);
+    padding: 120px 0px 72px 0px;
+    margin: auto;
 }
 
 .team-title {
@@ -209,11 +224,15 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
+    margin: 32px 0 8px;
 }
 
 .team-subtitle {
     font-weight: 400;
     color: var(--main-subtitle-color);
+    padding: 0px 0px 32px;
+    margin: auto;
+
 }
 
 /* -----------Footer section------------ */
