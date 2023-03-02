@@ -311,17 +311,23 @@ img {
 
 /* -----------------presentation------- */
 
-.presentation-item {
-    width: calc((100%-48px) / 3);
-    display: flex;
-}
 
 .presentation-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    /* gap: 24px; */
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
+.presentation-item {
+    width: calc((100% - 48px) / 3);
+}
 
+.presentation-content {
+    padding: 32px;
+    padding-left: 16px;
+}
 
 .presentation-subtitle {
     font-weight: 500;
