@@ -16,36 +16,45 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="body">
     <header class="header">
-        <div class="container">
-            <nav class="header-navigation">
-                <a href="./index.html" class="main-header-logo"><span class="logo-acsent">Web</span><span
-                        class="logo">Studio</span></a>
+        <section class="header-section">
+            <div class="container">
+                <div class="header-block">
+                    <nav class="header-navigation">
+                        <a href="./index.html" class="main-header-logo"><span class="logo-acsent">Web</span><span
+                                class="logo">Studio</span></a>
 
-                <ul class="header-list list">
-                    <li class="header-item"><a href="" class="header-link list">Studio</a></li>
-                    <li class="header-item"><a href="./portfolio.html" class="header-link list">Portfolio</a></li>
-                    <li class="header-item"><a href="" class="header-link list">Contacts</a></li>
-                </ul>
-            </nav>
+                        <ul class="header-list list">
+                            <li class="header-item"><a href="" class="header-link list">Studio</a></li>
+                            <li class="header-item"><a href="./portfolio.html" class="header-link list">Portfolio</a>
+                            </li>
+                            <li class="header-item"><a href="" class="header-link list">Contacts</a></li>
+                        </ul>
+                    </nav>
 
-            <address class="header-adress">
-                <ul class="header-adress list">
-                    <li><a href="mailto:info@devstudio.com" class="header-mail list contacts">info@devstudio.com</a>
-                    </li>
-                    <li><a href="tel:+110001111111" class="header-tel list contacts">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
-        </div>
+                    <address class="header-adress">
+                        <ul class="header-adress list">
+                            <li><a href="mailto:info@devstudio.com"
+                                    class="header-mail list contacts">info@devstudio.com</a>
+                            </li>
+                            <li><a href="tel:+110001111111" class="header-tel list contacts">+11 (000) 111-11-11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
         <!-- Hero section -->
         <section class="hero-section">
             <div class="container">
-                <h1 class="hero-title">Effective Solutions
-                    for Your Business</h1>
-                <button type="button" class="hero-button"><a href="" class="button-text">Order Service</a></button>
+                <div class="hero-container">
+                    <h1 class="hero-title">Effective Solutions
+                        for Your Business</h1>
+                    <button type="button" class="hero-button"><a href="" class="button-text">Order Service</a></button>
+                </div>
             </div>
         </section>
         <!-- /Hero section -->
@@ -67,7 +76,7 @@
                             the shortest possible
                             time.</p>
                     </li>
-                    <li>
+                    <li class="about-item">
                         <h3 class="about-title">Diligence</h3>
                         <p class="about-subtitle">Research and confirm brands that present the strongest digital growth
                             opportunities and minimize
@@ -89,9 +98,9 @@
             <div class="container">
                 <h2 class="worck-title">What are we doing</h2>
                 <ul class="worck-list list">
-                    <li><img src="./images/project1.jpg" alt="project1" width="360" height="300"></li>
-                    <li><img src="./images/project2.jpg" alt="project2" width="360" height="300"></li>
-                    <li><img src="./images/project3.jpg" alt="project3" width="360" height="300"></li>
+                    <li class="worck-item"><img src="./images/project1.jpg" alt="project1" width="360" height="300"></li>
+                    <li class="worck-item"><img src="./images/project2.jpg" alt="project2" width="360" height="300"></li>
+                    <li class="worck-item"><img src="./images/project3.jpg" alt="project3" width="360" height="300"></li>
                 </ul>
             </div>
         </section>
@@ -103,21 +112,29 @@
             <div class="container">
                 <h2 class="team-maintitle">Our Team</h2>
                 <ul class="team-list list">
-                    <li><img src="./images/person1.jpg" alt="person1" width="264" height="260">
+                    <li class="team-item"><img src="./images/person1.jpg" alt="person1" width="264" height="260">
+                        <div class="card-item">
                         <h3 class="team-title">Mark Guerrero</h3>
                         <p class="team-subtitle subtitle ">Product Designer</p>
+                    </div>
                     </li>
-                    <li><img src="./images/person2.jpg" alt="person2" width="264" height="260">
+                    <li class="team-item"><img src="./images/person2.jpg" alt="person2" width="264" height="260">
+                        <div class="card-item">
                         <h3 class="team-title">Tom Ford</h3>
                         <p class="team-subtitle">Frontend Developer</p>
+                    </div>
                     </li>
-                    <li><img src="./images/person3.jpg" alt="person3" width="264" height="260">
+                    <li class="team-item"><img src="./images/person3.jpg" alt="person3" width="264" height="260">
+                        <div class="card-item">
                         <h3 class="team-title">Camila Garcia</h3>
                         <p class="team-subtitle">Marketing</p>
+                    </div>
                     </li>
-                    <li><img src="./images/person4.jpg" alt="person4" width="264" height="260">
+                    <li class="team-item"><img src="./images/person4.jpg" alt="person4" width="264" height="260">
+                        <div class="card-item">
                         <h3 class="team-title">Daniel Wilson</h3>
                         <p class="team-subtitle">UI Designer</p>
+                    </div>
                     </li>
                 </ul>
             </div>
@@ -129,7 +146,7 @@
     <footer class="">
         <section class="footer-section">
             <div class="container">
-
+                <div class="footer-item">
                 <a href="./index.html" class="main-footer-logo"><span class="logo-acsent">Web</span><span
                         class="logo-footer">Studio</span></a>
 
@@ -137,6 +154,7 @@
                     marketing
                     &
                     growth solutions.</p>
+                </div>
             </div>
         </section>
 
