@@ -101,6 +101,8 @@ img {
     letter-spacing: 0.02em;
     font-weight: 500;
     color: #2E2F42;
+    padding: 24px 0;
+    display: block;
 }
 
 .header-link:hover,
@@ -126,24 +128,27 @@ img {
 
 .header-list {
     display: flex;
-    margin-right: 292px;
+    gap: 40px;
+}
+
+.adress {
+    margin-left: auto;
+    
 }
 
 .header-adress {
+    gap: 40px;
     display: flex;
-    align-items: center;
-}
-
-.header-item {
-    padding: 24px 20px;
 }
 
 .header-mail {
-    padding: 24px 20px;
+    padding: 24px 0;
+    display: block;
 }
 
 .header-tel {
-    padding: 24px 0px 24px 20px;
+    padding: 24px 0;
+    display: block;
 }
 
 /* --------------hero-section---------- */
@@ -192,6 +197,7 @@ img {
     border-radius: 4px;
     margin: 0 auto;
     display: block;
+    border: none;
 }
 
 
@@ -354,10 +360,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-    margin: auto;
     width: 264px;
-    margin: auto;
-    text-align: left;
     margin-top: 16px;
 }
 
@@ -365,9 +368,6 @@ img {
     background: #2E2F42;
 }
 
-.footer-item {
- padding: 100px 1020px 100px 0px;
-}
 
 /* -----------------------------------------------------portfolio---------------------------------------------------- */
 
